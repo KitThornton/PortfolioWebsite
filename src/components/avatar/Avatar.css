@@ -6,3 +6,13 @@
 .row {
     text-align: center;
 }
+.name {
+    font-size: xx-large;
+}
+.caption {
+    font-size: large;
+}
+a, a:visited, a:hover, a:active {
+    color: inherit !important;
+    text-decoration: none !important;
+}

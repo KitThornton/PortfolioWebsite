@@ -6,24 +6,26 @@ import Sidebar from "./components/sidebar/Sidebar";
 function App() {
     return (
         <Router>
-            <Container className="py-5">
-                <Row>
-                    <Col xs={3} className="sidebar">
-                        <Sidebar />
-                    </Col>
-                    <Col xs={9} className="content">
-                        <Switch>
-                            <Route exact path='/' component={Home} />
-                            <Route exact path='/home' component={Home} />
-                            <Route exact path='/contact' component={Contact} />
-                            <Route exact path='/skills' component={Skills} />
-                            <Route exact path='/projects' component={Projects} />
-                            <Route exact path='/experience' component={Experience} />
-                            <Route exact path='/cv' component={CV} />
-                        </Switch>
-                    </Col>
-                </Row>
-            </Container>
+            <div style={{backgroundColor: "#dfdfdf"}}>
+                <Container fluid className="">
+                    <Row>
+                        <Col xs={3} className="sidebar">
+                            <Sidebar />
+                        </Col>
+                        <Col xs={9} className="content">
+                            <Switch>
+                                <Route exact path='/' component={Home} />
+                                <Route exact path='/home' component={Home} />
+                                <Route exact path='/contact' component={Contact} />
+                                <Route exact path='/skills' component={Skills} />
+                                <Route exact path='/projects' component={Projects} />
+                                <Route exact path='/experience' component={Experience} />
+                                <Route exact path='/cv' component={CV} />
+                            </Switch>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
         </Router>
     );
 }

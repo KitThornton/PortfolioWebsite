@@ -13,3 +13,7 @@
     /*background-color: #DFCFBE;*/
     /*color: #282c34 !important;*/
 /*}*/
+.selected {
+    font-weight: bold !important;
+    background-color: lightsteelblue !important;
+}

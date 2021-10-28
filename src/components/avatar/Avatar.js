@@ -5,19 +5,21 @@ import './Avatar.css'
 
 const Avatar = () => {
     return (
-        <Container fluid className="py-1">
-            <Image src={Me} roundedCircle className="avatar m-2" />
-            <Row>
-                <Col className="text-center">
-                    Hi, I'm Kit Thornton
-                </Col>
-            </Row>
-            <Row>
-                <Col className="text-center">
-                    Junior Full Stack Software Engineer
-                </Col>
-            </Row>
-        </Container>
+        <a href='/'>
+            <Container fluid className="py-2 my-0">
+                <Image src={Me} roundedCircle className="avatar m-2" />
+                <Row>
+                    <Col className="text-center name">
+                        Kit Thornton
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="text-center caption">
+                        Full Stack Software Engineer
+                    </Col>
+                </Row>
+            </Container>
+        </a>
     )
 }
 

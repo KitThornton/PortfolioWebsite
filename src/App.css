@@ -14,7 +14,10 @@
 }
 .content {
   text-align: center;
-  background-color: lightsteelblue;
+  /* base blue: 154c79*/
+  background-color: #93c4ec
+
+;
 }
 
 

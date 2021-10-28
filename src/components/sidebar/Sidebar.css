@@ -2,8 +2,9 @@
     justify-content: center;
     text-align: center;
     /*align-items: center;*/
-    min-height: 85vh !important;
-    background-color: #DFCFBE;
+    min-height: 100vh !important;
+    background-color: #616161;
     /*color: #282c34 !important;*/
-    color: inherit;
+    color: #f8dad4;
+    /*color: inherit;*/
 }
