@@ -14,7 +14,7 @@ const Navbar = () => {
             {/*    <Nav.Link eventKey="/home" href="/home">Home</Nav.Link>*/}
             {/*</Nav.Item>*/}
             <Nav.Item>
-                <Nav.Link eventKey="/skills" href="/skills">Skills</Nav.Link>
+                <Nav.Link eventKey="skills" href="/skills">Skills</Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link href="/experience">Experience</Nav.Link>
