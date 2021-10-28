@@ -1,0 +1,9 @@
+.sidebar {
+    justify-content: center;
+    text-align: center;
+    /*align-items: center;*/
+    min-height: 85vh !important;
+    background-color: #DFCFBE;
+    /*color: #282c34 !important;*/
+    color: inherit;
+}
