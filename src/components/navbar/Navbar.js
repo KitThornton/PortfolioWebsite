@@ -5,7 +5,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <Nav className="col-12 d-none d-md-block"
+        <Nav className="d-sm-block"
              // activeKey="/home"
              fill
              // variant="tabs"
@@ -22,9 +22,9 @@ const Navbar = () => {
             <Nav.Item>
                 <Nav.Link href="/projects">Projects</Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-                <Nav.Link disabled/>
-            </Nav.Item>
+            {/*<Nav.Item>*/}
+            {/*    <Nav.Link disabled/>*/}
+            {/*</Nav.Item>*/}
             <Nav.Item>
                 <Nav.Link href="/cv">CV</Nav.Link>
             </Nav.Item>

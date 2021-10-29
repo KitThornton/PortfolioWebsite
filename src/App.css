@@ -15,9 +15,8 @@
 .content {
   text-align: center;
   /* base blue: 154c79*/
-  background-color: #93c4ec
-
-;
+  background-color: #93c4ec;
+  min-height: 100vh;
 }
 
 
