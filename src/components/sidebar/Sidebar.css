@@ -1,6 +1,7 @@
 .sidebar {
     justify-content: center;
     text-align: center;
+    flex-direction: column;
     /*align-items: center;*/
     /*min-height: 100vh !important;*/
     background-color: #616161;

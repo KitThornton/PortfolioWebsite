@@ -2,18 +2,12 @@ import './App.css';
 import {Container, Row, Col} from "react-bootstrap";
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Sidebar from "./components/sidebar/Sidebar";
-// import Navbar2 from "./components/navbar/Navbar2";
 
 function App() {
     return (
         <Router>
             <div style={{backgroundColor: "#dfdfdf"}}>
                 <Container fluid className="">
-                    {/*<Row>*/}
-                    {/*    <Col xs={12} sm={3} className="sidebar">*/}
-                    {/*        <Navbar2 />*/}
-                    {/*    </Col>*/}
-                    {/*</Row>*/}
                     <Row>
                         <Col xs={12} sm={3} className="sidebar">
                             <Sidebar />

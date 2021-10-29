@@ -5,19 +5,11 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <Container className="pt-5">
+        <Container className="">
             <Row>
-                <Col  className="text-center py-2">
-                    Get in touch
-                </Col>
-            </Row>
-            <Row>
-                <Col>
+                <Col >
                     <a target="blank" href="https://www.linkedin.com/in/kit-thornton/"><AiOutlineLinkedin /></a>
                 </Col>
-                {/*<Col>*/}
-                {/*    <a target="blank" href="https://www.kitthornton.dev/"><AiOutlineHome /></a>*/}
-                {/*</Col>*/}
                 <Col>
                     <a target="blank" href="https://github.com/KitThornton"><AiFillGithub /></a>
                 </Col>
