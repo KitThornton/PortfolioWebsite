@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
+import {HeaderWithRouter} from "../navbar/Navbar";
 import './Sidebar.css'
 
 const Sidebar = () => {
     return (
         <div className="sidebar">
-            <Navbar />
+            <HeaderWithRouter />
         </div>
     )
 };
