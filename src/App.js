@@ -32,11 +32,52 @@ function App() {
     );
 }
 
-const Home = () => <h1>HOME</h1>;
-const Contact = () => <h1>Contact</h1>;
-const Experience = () => <h1>Experience</h1>;
-const Skills = () => <h1>Skills</h1>;
-const Projects = () => <h1>Projects</h1>;
-const CV = () => <h1>CV</h1>;
+const Home = () => {
+    return (
+        <div className="content-box">
+            <h1>HOME</h1>
+        </div>
+        )
+}
+
+const Contact = () => {
+    return (
+        <div className="content-box">
+            <h1>Contact</h1>
+        </div>
+    )
+}
+
+const Experience = () => {
+    return (
+        <div className="content-box">
+            <h1>Experience</h1>
+        </div>
+    )
+}
+
+const Skills = () => {
+    return (
+        <div className="content-box">
+            <h1>Skills</h1>
+        </div>
+    )
+}
+
+const Projects = () => {
+    return (
+        <div className="content-box">
+            <h1>Projects</h1>
+        </div>
+    )
+}
+
+const CV = () => {
+    return (
+        <div className="content-box">
+            <h1>CV</h1>
+        </div>
+    )
+}
 
 export default App;

@@ -17,23 +17,13 @@
   /* base blue: 154c79*/
   /*background-color: #93c4ec;*/
   min-height: 100vh;
+  color: floralwhite;
 }
-
-
-/*#navbar-wrapper{*/
-/*  width: 100vw;*/
-/*  !*min-height: 100vh !important;*!*/
-/*  margin-left: -1rem;*/
-/*  -webkit-transition: margin .25s ease-out;*/
-/*  -moz-transition: margin .25s ease-out;*/
-/*  -o-transition: margin .25s ease-out;*/
-/*  transition: margin .25s ease-out;*/
-/*}*/
-/*#navbar-wrapper .navbar-heading {*/
-/*  padding: 0.875rem 1.25rem;*/
-/*  font-size: 1.2rem;*/
-/*}*/
-/*#page-content-wrapper {*/
-/*  min-width: 0;*/
-/*  width: 100%;*/
-/*}*/
+.content-box {
+  margin: 2% 5% 5%;
+  background-color: #282c34;
+  width: 90%;
+  height: 95%;
+  opacity: 80%;
+  border: 5px solid black;
+}

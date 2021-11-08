@@ -11,7 +11,7 @@ export const VerticalNavbar = (props) => {
 
     return (
         <>
-            <div className="d-none d-md-inline-block">
+            <div className="d-none d-md-block">
                 <Avatar />
             </div>
             <Navbar
