@@ -16,6 +16,7 @@ const Avatar = () => {
                 <Row>
                     <Col className="text-center caption">
                         Full Stack Software Engineer
+                        {/*FULL STACK SOFTWARE ENGINEER*/}
                     </Col>
                 </Row>
             </Container>

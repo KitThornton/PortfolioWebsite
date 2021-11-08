@@ -23,7 +23,7 @@ export const VerticalNavbar = (props) => {
                         <Contact />
                     </div>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-                    <Navbar.Collapse id="responsive-navbar-nav" className="pt-3">
+                    <Navbar.Collapse id="responsive-navbar-nav" className="pt-1">
                         <Col>
                             <Nav
                                 activeKey={location.pathname}
@@ -31,32 +31,32 @@ export const VerticalNavbar = (props) => {
                                  fill
                             >
                                 <Nav.Item>
-                                    <NavLink to="/skills" activeClassName="active">
-                                        Skills
+                                    <NavLink to="/skills" activeClassName="active" className="link">
+                                        SKILLS
                                     </NavLink>
                                 </Nav.Item>
 
                                 <Nav.Item>
-                                    <NavLink to="/experience" activeClassName="active">
-                                        Experience
+                                    <NavLink to="/experience" activeClassName="active" className="link">
+                                        EXPERIENCE
                                     </NavLink>
                                 </Nav.Item>
 
                                 <Nav.Item>
-                                    <NavLink to="/projects" activeClassName="active">
-                                        Projects
+                                    <NavLink to="/projects" activeClassName="active" className="link">
+                                        PROJECTS
                                     </NavLink>
                                 </Nav.Item>
 
                                 <Nav.Item>
-                                    <NavLink to="/cv" activeClassName="active">
+                                    <NavLink to="/cv" activeClassName="active" className="link">
                                         CV
                                     </NavLink>
                                 </Nav.Item>
 
                                 <Nav.Item>
-                                    <NavLink to="/contact" activeClassName="active">
-                                        Contact
+                                    <NavLink to="/contact" activeClassName="active" className="link">
+                                        CONTACT
                                     </NavLink>
                                 </Nav.Item>
 
@@ -65,9 +65,9 @@ export const VerticalNavbar = (props) => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <div className="d-none d-md-inline-block pt-5">
+            <div className="d-none d-md-inline-block footer">
                 <div>
-                    Get in touch...<br />
+                    GET IN TOUCH<br />
                 </div>
                 <Contact />
             </div>
