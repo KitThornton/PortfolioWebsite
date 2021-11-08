@@ -1,0 +1,8 @@
+.content-box {
+    margin: 2% 5% 5%;
+    background-color: #282c34;
+    width: 90%;
+    height: 95%;
+    opacity: 80%;
+    border: 5px solid black;
+}

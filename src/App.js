@@ -3,6 +3,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Sidebar from "./components/sidebar/Sidebar";
 import image from "./Tatra_mountains.jpg";
+import {Home} from "./pages/Home"
 
 function App() {
     return (
@@ -30,14 +31,6 @@ function App() {
             </div>
         </Router>
     );
-}
-
-const Home = () => {
-    return (
-        <div className="content-box">
-            <h1 className="pt-3">HOME</h1>
-        </div>
-        )
 }
 
 const Contact = () => {
