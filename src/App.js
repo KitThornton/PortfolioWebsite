@@ -35,7 +35,7 @@ function App() {
 const Home = () => {
     return (
         <div className="content-box">
-            <h1>HOME</h1>
+            <h1 className="pt-3">HOME</h1>
         </div>
         )
 }
@@ -43,7 +43,7 @@ const Home = () => {
 const Contact = () => {
     return (
         <div className="content-box">
-            <h1>Contact</h1>
+            <h1 className="pt-3">Contact</h1>
         </div>
     )
 }
@@ -51,7 +51,7 @@ const Contact = () => {
 const Experience = () => {
     return (
         <div className="content-box">
-            <h1>Experience</h1>
+            <h1 className="pt-3">Experience</h1>
         </div>
     )
 }
@@ -59,7 +59,7 @@ const Experience = () => {
 const Skills = () => {
     return (
         <div className="content-box">
-            <h1>Skills</h1>
+            <h1 className="pt-3">Skills</h1>
         </div>
     )
 }
@@ -67,7 +67,7 @@ const Skills = () => {
 const Projects = () => {
     return (
         <div className="content-box">
-            <h1>Projects</h1>
+            <h1 className="pt-3">Projects</h1>
         </div>
     )
 }
@@ -75,7 +75,7 @@ const Projects = () => {
 const CV = () => {
     return (
         <div className="content-box">
-            <h1>CV</h1>
+            <h1 className="pt-3">CV</h1>
         </div>
     )
 }
