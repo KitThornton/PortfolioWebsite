@@ -3,8 +3,6 @@ import {SectionButtonGroup} from '../components/SectionButtonGroup/SectionButton
 
 export const Home = () => {
     return (
-        <div className="content-box">
-            {/*<h1 className="pt-3">HOME</h1>*/}
             <div className="content-body">
                 Hi, I'm Kit
                 <br/>
@@ -24,6 +22,5 @@ export const Home = () => {
                 Check out my tech stack, experience and projects below:
                 <SectionButtonGroup />
             </div>
-        </div>
     )
 }

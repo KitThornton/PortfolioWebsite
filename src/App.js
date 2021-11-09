@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Sidebar from "./components/sidebar/Sidebar";
 import image from "./Tatra_mountains.jpg";
 import {Home} from "./pages/Home"
+import CV from "./pages/CV"
 import './App.css';
 
 function App() {
@@ -15,15 +16,17 @@ function App() {
                             <Sidebar />
                         </Col>
                         <Col xs={12} sm={9} className="content">
-                            <Switch>
-                                <Route exact path='/' component={Home} />
-                                {/*<Route exact path='/home' component={Home} />*/}
-                                <Route exact path='/contact' component={Contact} />
-                                <Route exact path='/skills' component={Skills} />
-                                <Route exact path='/projects' component={Projects} />
-                                <Route exact path='/experience' component={Experience} />
-                                <Route exact path='/cv' component={CV} />
-                            </Switch>
+                            <div className="content-box">
+                                <Switch>
+                                    <Route exact path='/' component={Home} />
+                                    <Route exact path='/home' component={Home} />
+                                    <Route exact path='/contact' component={Contact} />
+                                    <Route exact path='/skills' component={Skills} />
+                                    <Route exact path='/projects' component={Projects} />
+                                    <Route exact path='/experience' component={Experience} />
+                                    <Route exact path='/cv' component={CV} />
+                                </Switch>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
@@ -34,7 +37,7 @@ function App() {
 
 const Contact = () => {
     return (
-        <div className="content-box">
+        <div>
             <h1 className="pt-3">Contact</h1>
         </div>
     )
@@ -42,7 +45,7 @@ const Contact = () => {
 
 const Experience = () => {
     return (
-        <div className="content-box">
+        <div>
             <h1 className="pt-3">Experience</h1>
         </div>
     )
@@ -50,7 +53,7 @@ const Experience = () => {
 
 const Skills = () => {
     return (
-        <div className="content-box">
+        <div>
             <h1 className="pt-3">Skills</h1>
         </div>
     )
@@ -58,16 +61,8 @@ const Skills = () => {
 
 const Projects = () => {
     return (
-        <div className="content-box">
+        <div>
             <h1 className="pt-3">Projects</h1>
-        </div>
-    )
-}
-
-const CV = () => {
-    return (
-        <div className="content-box">
-            <h1 className="pt-3">CV</h1>
         </div>
     )
 }

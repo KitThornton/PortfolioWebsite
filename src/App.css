@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 .content {
-  min-height: 100vh;
+  height: 100vh;
   color: floralwhite;
 }
 .content-box {
-  margin: 2% 5% 5%;
+  padding-bottom: 0;
+  margin: 2% 5% 0%;
   background-color: #282c34;
   /*background-color: #616161;*/
   width: 90%;
-  height: 95%;
+  height: 96%;
   opacity: 0.8;
   border: 5px solid black;
+  font-family: 'Space Grotesk', sans-serif;
 }
