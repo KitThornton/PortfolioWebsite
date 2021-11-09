@@ -1,4 +1,5 @@
 import './Home.css'
+import {SectionButtonGroup} from '../components/SectionButtonGroup/SectionButtonGroup'
 
 export const Home = () => {
     return (
@@ -21,6 +22,7 @@ export const Home = () => {
                 <br />
                 <br />
                 Check out my tech stack, experience and projects below:
+                <SectionButtonGroup />
             </div>
         </div>
     )
