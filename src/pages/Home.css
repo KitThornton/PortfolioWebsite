@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
 .content-box {
     margin: 2% 5% 5%;
     background-color: #282c34;
@@ -5,4 +7,19 @@
     height: 95%;
     opacity: 80%;
     border: 5px solid black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.content-body {
+    text-align: start;
+    padding: 3% 10% 10%;
+}
+@media screen and (max-width: 767px) {
+    .content-body {
+        font-size: larger;
+    }
+}
+@media screen and (min-width: 767px) {
+    .content-body {
+        font-size: xx-large;
+    }
 }

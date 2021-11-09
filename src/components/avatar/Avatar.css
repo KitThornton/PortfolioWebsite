@@ -19,3 +19,6 @@ a, a:visited, a:hover, a:active {
 .container {
     white-space: nowrap;
 }
+.link {
+    font-weight: normal !important;
+}

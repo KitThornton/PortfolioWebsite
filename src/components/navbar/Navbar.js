@@ -31,6 +31,12 @@ export const VerticalNavbar = (props) => {
                                  fill
                             >
                                 <Nav.Item>
+                                    <NavLink to="/home" activeClassName="active" className="link d-md-none">
+                                        HOME
+                                    </NavLink>
+                                </Nav.Item>
+
+                                <Nav.Item>
                                     <NavLink to="/skills" activeClassName="active" className="link">
                                         SKILLS
                                     </NavLink>

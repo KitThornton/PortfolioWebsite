@@ -1,16 +1,15 @@
-import './App.css';
 import {Container, Row, Col} from "react-bootstrap";
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Sidebar from "./components/sidebar/Sidebar";
 import image from "./Tatra_mountains.jpg";
 import {Home} from "./pages/Home"
+import './App.css';
 
 function App() {
     return (
         <Router>
-            {/*backgroundColor: "#dfdfdf",*/}
             <div style={{backgroundImage: `url(${image})`, backgroundSize: "cover"}}>
-                <Container fluid className="">
+                <Container fluid>
                     <Row>
                         <Col xs={12} sm={3} className="sidebar mx-0 px-0">
                             <Sidebar />
@@ -18,7 +17,7 @@ function App() {
                         <Col xs={12} sm={9} className="content">
                             <Switch>
                                 <Route exact path='/' component={Home} />
-                                <Route exact path='/home' component={Home} />
+                                {/*<Route exact path='/home' component={Home} />*/}
                                 <Route exact path='/contact' component={Contact} />
                                 <Route exact path='/skills' component={Skills} />
                                 <Route exact path='/projects' component={Projects} />
