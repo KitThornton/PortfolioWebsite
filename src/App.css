@@ -10,7 +10,8 @@
   /*background-color: #616161;*/
   width: 90%;
   height: 96%;
-  opacity: 0.8;
+  opacity: 0.9;
   border: 5px solid black;
   font-family: 'Space Grotesk', sans-serif;
+  overflow: auto;
 }

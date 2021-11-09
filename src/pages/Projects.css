@@ -1,0 +1,14 @@
+.project {
+    height: 300px;
+}
+Button {
+    font-size: medium !important;
+}
+.project-caption {
+    text-align: left;
+    font-size: small;
+}
+.text {
+    white-space: initial;
+    text-align: left;
+}

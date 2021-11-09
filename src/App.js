@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Sidebar from "./components/sidebar/Sidebar";
 import image from "./Tatra_mountains.jpg";
 import {Home} from "./pages/Home"
+import {Projects} from "./pages/Projects"
 import CV from "./pages/CV"
 import './App.css';
 
@@ -55,14 +56,6 @@ const Skills = () => {
     return (
         <div>
             <h1 className="pt-3">Skills</h1>
-        </div>
-    )
-}
-
-const Projects = () => {
-    return (
-        <div>
-            <h1 className="pt-3">Projects</h1>
         </div>
     )
 }

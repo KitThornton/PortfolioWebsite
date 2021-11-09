@@ -1,0 +1,17 @@
+.project-modal {
+    /*width: 90vw !important;*/
+    min-width: 90vw;
+    height: 80vh;
+    min-height: 80vh !important;
+    /*padding-left: 25%;*/
+}
+@media screen and (max-width: 767px) {
+    .project-modal {
+        padding: 5% 5% 5%;
+    }
+}
+@media screen and (min-width: 767px) {
+    .project-modal {
+        padding: 0 0 5% 25%;
+    }
+}
