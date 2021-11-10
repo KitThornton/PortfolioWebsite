@@ -5,13 +5,13 @@
 }
 .content-box {
   padding-bottom: 0;
-  margin: 2% 5% 0%;
+  margin: 2% 5% 2%;
   background-color: #282c34;
   /*background-color: #616161;*/
   width: 90%;
-  height: 96%;
+  height: 96vh;
   opacity: 0.9;
   border: 5px solid black;
   font-family: 'Space Grotesk', sans-serif;
-  overflow: auto;
+  overflow-y: auto;
 }

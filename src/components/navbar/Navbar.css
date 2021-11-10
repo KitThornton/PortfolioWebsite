@@ -19,7 +19,7 @@
 }
 @media screen and (max-width: 767px) {
     .link {
-        font-size: larger;
+        font-size: large;
     }
 }
 @media screen and (min-width: 767px) {
@@ -27,6 +27,6 @@
         margin-top: 30px;
     }
     .link {
-        font-size: x-large;
+        font-size: larger;
     }
 }

@@ -1,5 +1,5 @@
-import './Home.css'
 import {SectionButtonGroup} from '../components/SectionButtonGroup/SectionButtonGroup'
+import './Home.css'
 
 export const Home = () => {
     return (
