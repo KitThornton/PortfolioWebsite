@@ -1,6 +1,6 @@
 import React from 'react';
 import { Modal,  Button, Row, Col } from 'react-bootstrap';
-import {BsGithub} from 'react-icons/all';
+// import {BsGithub} from 'react-icons/all';
 import './ProjectModal.css';
 
 export default function ProjectModal(props) {
