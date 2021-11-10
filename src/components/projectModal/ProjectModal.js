@@ -1,6 +1,6 @@
 import React from 'react';
 import { Modal,  Button, Row, Col, Container } from 'react-bootstrap';
-// import {BsGithub} from 'react-icons/all';
+import {BsGithub} from 'react-icons/all';
 import './ProjectModal.css';
 import {
     BsBootstrap,
@@ -19,9 +19,7 @@ export default function ProjectModal(props) {
     return(
 
         <Modal
-            // size="lg"
             aria-labelledby="contained-modal-title-vcenter"
-            // centered
             {...props}
             dialogClassName="project-modal"
         >
@@ -84,6 +82,24 @@ export default function ProjectModal(props) {
                     <Row>
                         <Col className="section-title">
                             TECH STACK
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className="text">
+                            I used a primarily Javascript for this project and the full tech stack can be seen below.
+                            The GitHub repositories for the front-end app and API can be seen here:
+                        </Col>
+                    </Row>
+                    <Row className="text-center py-2">
+                        <Col>
+                            <a href="https://github.com/KitThornton/convertthatclimb" target="_blank" rel="noreferrer">
+                                Front-end app: < BsGithub/>
+                            </a>
+                        </Col>
+                        <Col>
+                            <a href="https://github.com/KitThornton/ConvertThatClimbAPI" target="_blank" rel="noreferrer">
+                                Node.js API: < BsGithub/>
+                            </a>
                         </Col>
                     </Row>
                     <Row>

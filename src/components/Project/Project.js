@@ -31,10 +31,7 @@ class Project extends React.Component {
     render() {
         return (
             <Row>
-                <Col xs="12" md="4" className="my-auto">
-                    <img className="project-thumbnail" src={CTC} alt={"Convert That Climb"} />
-                </Col>
-                <Col xs="12" md="8">
+                <Col xs="12" md="12" lg="8">
                     <h2>Convert That Climb</h2>
                     <Row className="py-1">
                         <Col className="project-caption">
@@ -105,6 +102,9 @@ class Project extends React.Component {
                             <SiNetlify/> Netlify
                         </Col>
                     </Row>
+                </Col>
+                <Col xs="12" md="6" lg="4" className="my-auto mx-auto">
+                    <img className="project-thumbnail" src={CTC} alt={"Convert That Climb"} />
                 </Col>
 
                 <ProjectModal

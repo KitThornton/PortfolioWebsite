@@ -2,7 +2,7 @@
     margin: 35px;
 }
 .link:hover {
-    font-weight: bold !important;
+    /*font-weight: bold !important;*/
 }
 .link:hover:after {
     content: '   |';
