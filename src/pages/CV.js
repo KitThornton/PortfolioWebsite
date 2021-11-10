@@ -6,6 +6,7 @@ import {Link} from "react-router-dom";
 import file from '../cv_142.pdf'
 import './CV.css';
 import throttle from "lodash.throttle";
+import {IconContext} from "react-icons";
 
 export default class CV extends React.Component {
 
@@ -20,15 +21,16 @@ export default class CV extends React.Component {
         this.changePage = this.changePage.bind(this);
         this.nextPage = this.nextPage.bind(this);
         this.previousPage = this.previousPage.bind(this);
+        this.throttledFunction = throttle(this.setDivSize, 100);
     }
 
     componentDidMount() {
         this.setDivSize()
-        window.addEventListener("resize", throttle(this.setDivSize, 100))
+        window.addEventListener("resize", this.throttledFunction)
     }
 
     componentWillUnmount() {
-        window.removeEventListener("resize", throttle(this.setDivSize, 100))
+        window.removeEventListener("resize", this.throttledFunction)
     }
 
     setDivSize = () => {
@@ -59,23 +61,15 @@ export default class CV extends React.Component {
     render() {
 
         return (
-            <Container fluid className="CV d-none d-md-inline-block">
+            <Container fluid className="CV d-none d-md-inline-block my-auto">
                 <Row>
-                    <Col>
+                    <Col className="my-auto">
                         Page {this.state.pageNumber} of {this.state.numPages}
                     </Col>
-                    <Col className="icon">
-                        <OverlayTrigger
-                            placement="right"
-                            delay={{show: 100, hide: 400}}
-                            overlay={renderTooltip}
-                        >
-                            <Link to={file} target="_blank" download>
-                                <RiFileDownloadLine/>
-                            </Link>
-                        </OverlayTrigger>
+                    <Col className="icon my-auto">
+                        <Overlay />
                     </Col>
-                    <Col>
+                    <Col className="my-auto">
                         <Button
                             type="button"
                             disabled={this.state.pageNumber <= 1}
@@ -114,6 +108,22 @@ export default class CV extends React.Component {
             </Container>
         )
     }
+}
+
+const Overlay = () => {
+    return(
+        <OverlayTrigger
+            placement="right"
+            delay={{show: 100, hide: 400}}
+            overlay={renderTooltip}
+        >
+            <Link to={file} target="_blank" download>
+                <IconContext.Provider value={{ size: "2.5em" }}>
+                    <RiFileDownloadLine/>
+                </IconContext.Provider>
+            </Link>
+        </OverlayTrigger>
+    )
 }
 
 const renderTooltip = (props) => (

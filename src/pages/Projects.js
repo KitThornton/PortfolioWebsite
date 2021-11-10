@@ -7,7 +7,7 @@ export const Projects = () => {
     return (
         <Container>
             <h1 className="pt-3">Projects</h1>
-            <Row className="p-3">
+            <Row className="py-3">
                 <Col className="project">
                     <Project />
                 </Col>

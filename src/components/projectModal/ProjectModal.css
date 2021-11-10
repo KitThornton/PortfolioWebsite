@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
 .project-modal {
     /*width: 90vw !important;*/
     min-width: 90vw;
     height: 80vh;
     min-height: 80vh !important;
     /*padding-left: 25%;*/
+    font-family: 'Space Grotesk', sans-serif;
+}
+a {
+    font-size: medium;
 }
 @media screen and (max-width: 767px) {
     .project-modal {
