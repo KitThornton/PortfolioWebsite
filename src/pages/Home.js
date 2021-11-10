@@ -4,7 +4,7 @@ import './Home.css'
 export const Home = () => {
     return (
             <div className="content-body">
-                Hi, I'm Kit
+                Hi, I'm Kit.
                 <br/>
                 <br/>
                 I'm a junior full stack software engineer from the UK.

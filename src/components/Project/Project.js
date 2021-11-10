@@ -77,7 +77,7 @@ class Project extends React.Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col className="text">
+                        <Col>
                             Front-End:
                             <br />
                             <IoLogoReact /> React
