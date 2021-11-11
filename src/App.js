@@ -5,6 +5,7 @@ import image from "./Tatra_mountains.jpg";
 import {Home} from "./pages/Home";
 import {Projects} from "./pages/Projects";
 import {Contact} from "./pages/Contact";
+import {Skills} from "./pages/Skills";
 import CV from "./pages/CV"
 import './App.css';
 
@@ -41,14 +42,6 @@ const Experience = () => {
     return (
         <div>
             <h1 className="pt-3">Experience</h1>
-        </div>
-    )
-}
-
-const Skills = () => {
-    return (
-        <div>
-            <h1 className="pt-3">Skills</h1>
         </div>
     )
 }

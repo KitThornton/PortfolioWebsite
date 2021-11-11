@@ -1,0 +1,16 @@
+.skills-text {
+    font-size: large;
+    white-space: initial;
+}
+.skills-header {
+    font-size: large;
+    padding-top: 4%;
+}
+.skills-description {
+    font-size: large;
+    /*text-align: left;*/
+}
+.skills-description-row:hover {
+    background-color: dimgrey;
+    transition-delay: 0.1s;
+}
