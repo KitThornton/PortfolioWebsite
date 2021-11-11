@@ -5,13 +5,25 @@
 }
 .content-box {
   padding-bottom: 0;
-  margin: 2% 5% 2%;
+  /*margin: 2% 2.5% 2%;*/
   background-color: #282c34;
   /*background-color: #616161;*/
-  width: 90%;
+  /*width: 95%;*/
   height: 96vh;
   opacity: 0.9;
   border: 5px solid black;
   font-family: 'Space Grotesk', sans-serif;
   overflow-y: auto;
+}
+@media screen and (max-width: 767px) {
+  .content-box {
+    margin: 2% 0 0;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 767px) {
+  .content-box {
+    width: 90%;
+    margin: 2% 5% 2%;
+  }
 }

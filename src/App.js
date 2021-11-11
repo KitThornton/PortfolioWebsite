@@ -2,8 +2,9 @@ import {Container, Row, Col} from "react-bootstrap";
 import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Sidebar from "./components/sidebar/Sidebar";
 import image from "./Tatra_mountains.jpg";
-import {Home} from "./pages/Home"
-import {Projects} from "./pages/Projects"
+import {Home} from "./pages/Home";
+import {Projects} from "./pages/Projects";
+import {Contact} from "./pages/Contact";
 import CV from "./pages/CV"
 import './App.css';
 
@@ -34,14 +35,6 @@ function App() {
             </div>
         </Router>
     );
-}
-
-const Contact = () => {
-    return (
-        <div>
-            <h1 className="pt-3">Contact</h1>
-        </div>
-    )
 }
 
 const Experience = () => {

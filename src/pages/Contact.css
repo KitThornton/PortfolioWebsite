@@ -1,0 +1,32 @@
+.contact-text {
+    white-space: initial;
+    font-size: larger;
+    /*text-align: left;*/
+    text-align: justify;
+}
+.contact-links {
+    text-align: left;
+    /*padding-left: -60%;*/
+}
+@media screen and (max-width: 767px) {
+    .contact-text {
+        font-size: medium;
+    }
+    .contact-links, a {
+        font-size: medium;
+    }
+    .contact-links {
+        margin-left: -9%;
+    }
+}
+@media screen and (min-width: 767px) {
+    .contact-text {
+        font-size: x-large;
+    }
+    .contact-links {
+        font-size: larger;
+    }
+    a {
+        font-size: larger;
+    }
+}
