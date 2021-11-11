@@ -4,7 +4,7 @@ import {AiOutlineLinkedin, AiFillGithub, AiOutlineMail, BsFacebook, ImWhatsapp }
 
 export const Contact = () => {
     return (
-        <Container>
+        <Container className="contact-content-body">
             <h1 className="py-3">Contact</h1>
             <Row className="contact-text py-1">
                 <Col className="col-left">

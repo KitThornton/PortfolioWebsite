@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 .content {
-  height: 100vh;
+  /*height: 100vh;*/
   color: floralwhite;
 }
 .content-box {
@@ -20,7 +20,7 @@
     width: 100%;
   }
   .content {
-    height: 94.5vh;
+    height: 93vh;
   }
   .content-box {
     height: 90vh;

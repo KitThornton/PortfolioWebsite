@@ -13,10 +13,6 @@ export const Home = () => {
                 I've spent the last two and a half years working as a professional web developer and I am
                 currently working remotely out of Warwickshire. I love all things web development and am
                 always working on new projects.
-                {/*I also love everything outdoors from climbing to hiking.*/}
-                {/*<br />*/}
-                {/*<br />*/}
-                {/*I enjoy working on the front-end, back-end, database and DevOps.*/}
                 <br />
                 <br />
                 Check out my tech stack, experience and projects below:

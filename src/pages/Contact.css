@@ -7,6 +7,9 @@
 .contact-links {
     text-align: start;
 }
+.contact-content-body {
+    padding: 0% 4% 10%;
+}
 @media screen and (max-width: 767px) {
     .contact-text {
         font-size: medium;
@@ -32,5 +35,9 @@
     }
     a {
         font-size: larger;
+    }
+    .col-left {
+        padding-left: revert;
+        padding-right: initial;
     }
 }
