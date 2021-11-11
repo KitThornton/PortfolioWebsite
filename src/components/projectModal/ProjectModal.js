@@ -25,30 +25,21 @@ export default function ProjectModal(props) {
         >
             <Modal.Header>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    <Row>
-                        <Col xs={12} md={8} className="my-auto">
+                    <Row className="mx-0">
+                        <Col xs={12} lg={7} className="my-auto">
                             <a href="https://www.convertthatclimb.co.uk/" target="_blank" rel="noreferrer">
                                 <h1>Convert That Climb</h1>
                             </a>
                         </Col>
-                        {/*<Col xs={12} md={2} className="my-auto d-flex justify-content-end">*/}
-                        {/*    <IconContext.Provider value={{ size: "1.5em" }}>*/}
-                        {/*        <BsGithub />*/}
-                        {/*    </IconContext.Provider>*/}
-                        {/*</Col>*/}
-                        <Col xs={12} md={4} className="my-auto">
-                            <a target="_blank" rel="noreferrer" href="https://www.convertthatclimb.co.uk">
-                                www.convertthatclimb.co.uk
-                            </a>
+                        {/*<Col xs={12} lg={5} className="d-flex align-items-end" >*/}
+                        <Col xs={12} lg={5} className="my-auto" >
+                            <h6>
+                                <a target="_blank" rel="noreferrer" href="https://www.convertthatclimb.co.uk">
+                                    www.convertthatclimb.co.uk
+                                </a>
+                            </h6>
                         </Col>
-                        {/*<Col xs={1} md={1} className="my-auto">*/}
-                        {/*    <BsGithub />*/}
-                        {/*</Col>*/}
                     </Row>
-
-                    {/*<a target="_blank" rel="noreferrer" href="https://github.com/KitThornton/convertthatclimb">*/}
-                    {/*    <BsGithub />*/}
-                    {/*</a>*/}
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
