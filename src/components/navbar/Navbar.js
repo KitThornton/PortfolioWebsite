@@ -23,7 +23,7 @@ export const VerticalNavbar = (props) => {
                         <Contact />
                     </div>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-                    <Navbar.Collapse id="responsive-navbar-nav" className="pt-1">
+                    <Navbar.Collapse id="responsive-navbar-nav" className="pt-0">
                         <Col>
                             <Nav
                                 activeKey={location.pathname}

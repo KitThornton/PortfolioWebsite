@@ -5,8 +5,7 @@
     text-align: justify;
 }
 .contact-links {
-    text-align: left;
-    /*padding-left: -60%;*/
+    text-align: start;
 }
 @media screen and (max-width: 767px) {
     .contact-text {
@@ -14,9 +13,14 @@
     }
     .contact-links, a {
         font-size: medium;
+        word-break: break-word;
     }
     .contact-links {
-        margin-left: -9%;
+        /*margin-left: -10%;*/
+    }
+    .col-left {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media screen and (min-width: 767px) {

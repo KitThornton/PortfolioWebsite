@@ -4,14 +4,13 @@
   color: floralwhite;
 }
 .content-box {
-  padding-bottom: 0;
-  /*margin: 2% 2.5% 2%;*/
-  background-color: #282c34;
   /*background-color: #616161;*/
-  /*width: 95%;*/
-  height: 96vh;
+  background-color: #282c34;
+  height: 95vh;
+  /*height: auto;*/
+  /*padding-bottom: 10%;*/
   opacity: 0.9;
-  border: 5px solid black;
+  border: 3px solid black;
   font-family: 'Space Grotesk', sans-serif;
   overflow-y: auto;
 }
@@ -20,10 +19,22 @@
     margin: 2% 0 0;
     width: 100%;
   }
+  .content {
+    height: 94.5vh;
+  }
+  .content-box {
+    height: 90vh;
+  }
 }
 @media screen and (min-width: 767px) {
   .content-box {
     width: 90%;
     margin: 2% 5% 2%;
+  }
+  .content {
+    height: 100vh;
+  }
+  .content-box {
+    height: 93vh;
   }
 }
