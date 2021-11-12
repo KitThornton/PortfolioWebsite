@@ -4,7 +4,7 @@ import {Button, Container, Row, Col, Tooltip, OverlayTrigger} from "react-bootst
 import {RiFileDownloadLine} from 'react-icons/all';
 import {Link} from "react-router-dom";
 import file from '../cv_142.pdf'
-import Thornton_Kit_close from "../Thornton_Kit_close.jpg"
+// import Thornton_Kit_close from "../Thornton_Kit_close.jpg"
 import './CV.css';
 import throttle from "lodash.throttle";
 import {IconContext} from "react-icons";
@@ -108,7 +108,7 @@ export default class CV extends React.Component {
                     </Col>
                 </Row>
             </Container>
-            <img src={Thornton_Kit_close} className="d-inline-block d-md-none" style={{width:"100%", height:"auto"}} alt={"test"}/>
+            {/*<img src={Thornton_Kit_close} className="d-inline-block d-md-none" style={{width:"100%", height:"auto"}} alt={"test"}/>*/}
         </div>
         )
     }

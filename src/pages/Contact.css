@@ -12,7 +12,7 @@
 }
 @media screen and (max-width: 767px) {
     .contact-text {
-        font-size: medium;
+        font-size: larger;
     }
     .contact-links, a {
         font-size: medium;

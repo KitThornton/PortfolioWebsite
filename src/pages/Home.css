@@ -4,7 +4,7 @@
 }
 @media screen and (max-width: 767px) {
     .content-body {
-        font-size: medium;
+        font-size: larger;
     }
 }
 @media screen and (min-width: 767px) {

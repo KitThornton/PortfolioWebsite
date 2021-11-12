@@ -4,13 +4,10 @@ import {BsGithub} from 'react-icons/all';
 import './ProjectModal.css';
 import {
     BsBootstrap,
-    FaNodeJs,
     GrHeroku,
     IoLogoCss3,
     IoLogoReact,
-    SiGraphql, SiNetlify,
-    SiPostgresql,
-    SiRedux
+    SiNetlify,
 } from "react-icons/all";
 
 export default function PortfolioSiteModal(props) {
