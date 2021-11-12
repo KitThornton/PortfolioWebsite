@@ -30,7 +30,6 @@ export default function PortfolioSiteModal(props) {
                                 <h1>Portfolio Website</h1>
                             </a>
                         </Col>
-                        {/*<Col xs={12} lg={5} className="d-flex align-items-end" >*/}
                         <Col xs={12} lg={4} className="my-auto" >
                             <h6>
                                 <a target="_blank" rel="noreferrer" href="https://www.kitthornton.dev/">
@@ -71,17 +70,21 @@ export default function PortfolioSiteModal(props) {
                     <Row>
                         <Col className="text">
                             I used a primarily Javascript for this project and the full tech stack can be seen below.
-                            The GitHub repositories for the front-end app and API can be seen here:
+                            The GitHub repository can be seen below:
                         </Col>
                     </Row>
                     <Row className="text-center py-2">
                         <Col>
-                            <a href="https://github.com/KitThornton/convertthatclimb" target="_blank" rel="noreferrer">
-                                Application: < BsGithub/>
-                            </a>
                         </Col>
                     </Row>
                     <Row>
+                        <Col>
+                            Project Management:
+                            <br />
+                            <a href="https://github.com/KitThornton/PortfolioWebsite" target="_blank" rel="noreferrer">
+                                <BsGithub /> GitHub
+                            </a>
+                        </Col>
                         <Col>
                             Front-End:
                             <br />

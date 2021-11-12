@@ -23,7 +23,7 @@ export const VerticalNavbar = (props) => {
                         <Contact />
                     </div>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-                    <Navbar.Collapse id="responsive-navbar-nav" className="pt-0">
+                    <Navbar.Collapse id="responsive-navbar-nav" className="py-sm-0 pt-md-5">
                         <Col>
                             <Nav
                                 activeKey={location.pathname}
@@ -71,8 +71,8 @@ export const VerticalNavbar = (props) => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <div className="d-none d-md-inline-block footer">
-                <div>
+            <div className="d-none d-md-inline-block footer-wrapper">
+                <div className="footer">
                     GET IN TOUCH<br />
                 </div>
                 <Contact />
