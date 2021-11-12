@@ -1,12 +1,15 @@
 .CV {
-    padding: 2vh 0 1vh ;
+    padding: 2vh 0 1vh;
 }
+
 .btn-page {
     /*font-size: medium !important;*/
 }
+
 .icon {
     /*size: 1em;*/
 }
+
 #placeholderWrapper {
     width: 1vw;
     height: 1vh;
@@ -19,15 +22,18 @@
         padding: 1% 0 5%;
     }
 }
+
 @media screen and (min-width: 767px) {
     #pdfWrapper {
         width: 90%;
         height: auto;
         padding: 1% 5% 5%;
     }
+
     .page-numbers {
         font-size: larger !important;
     }
+
     .btn-page {
         font-size: larger !important;
     }

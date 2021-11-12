@@ -2,23 +2,28 @@
     font-size: large;
     white-space: initial;
 }
+
 .skills-header {
     font-size: large;
     padding-top: 4%;
 }
+
 .skills-description {
     font-size: large;
     /*text-align: left;*/
 }
+
 .skills-description-row:hover {
     background-color: grey;
     /*padding-right: 10%;*/
     /*padding-left: 10%;*/
     transition-delay: 0.1s;
 }
+
 .star {
     size: 30px;
 }
+
 /*.skills-description-row:hover .skills-description {*/
 /*    !*padding-left: 10%;*!*/
 /*    transition-delay: 0.1s;*/

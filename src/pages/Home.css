@@ -2,11 +2,13 @@
     text-align: start;
     padding: 3% 4% 10%;
 }
+
 @media screen and (max-width: 767px) {
     .content-body {
         font-size: larger;
     }
 }
+
 @media screen and (min-width: 767px) {
     .content-body {
         font-size: x-large;

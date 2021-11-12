@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Col, Container, Row} from 'react-bootstrap';
 import ConvertThatClimb from "../components/Project/ConvertThatClimb";
 import PortfolioSite from "../components/Project/PortfolioSite";
 import './Projects.css'
@@ -16,12 +16,12 @@ export const Projects = () => {
                 <Col>
                     <Row className="py-3">
                         <Col className="project">
-                            <ConvertThatClimb />
+                            <ConvertThatClimb/>
                         </Col>
                     </Row>
                     <Row className="py-3">
                         <Col>
-                            <PortfolioSite />
+                            <PortfolioSite/>
                         </Col>
                     </Row>
                 </Col>
