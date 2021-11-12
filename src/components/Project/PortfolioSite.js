@@ -1,12 +1,11 @@
 import React from "react";
 import {Button, Col, Row} from "react-bootstrap";
-import ProjectModal from "../projectModal/ProjectModal";
+import PortfolioSiteModal from "../projectModal/PortfolioSiteModal";
 import CTC from "../../CTC.png";
 import './Project.css';
-import {IoLogoReact, SiRedux, BsBootstrap,
-    FaNodeJs, SiPostgresql, IoLogoCss3, SiGraphql, GrHeroku, SiNetlify} from 'react-icons/all'
+import {IoLogoReact, BsBootstrap, IoLogoCss3, SiNetlify} from 'react-icons/all'
 
-class Project extends React.Component {
+class PortfolioSite extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -32,7 +31,7 @@ class Project extends React.Component {
         return (
             <Row>
                 <Col xs="12" md="12" lg="8">
-                    <h2>Convert That Climb</h2>
+                    <h2>Portfolio Website</h2>
                     <Row className="py-1">
                         <Col className="project-caption">
                             OVERVIEW
@@ -40,11 +39,8 @@ class Project extends React.Component {
                     </Row>
                     <Row>
                         <Col className="text-1">
-                                This website enables the user to convert equivalent climbing grades between different
-                                systems
-                                for both route climbing and bouldering.
-                                {/*Further information on the history and meaning behind*/}
-                                {/*the different grading systems can be seen alongside expertise levels of the grades.*/}
+                            I created this very website here in order to develop my front-end skills and display
+                            my abilities as a freelance professional.
                         </Col>
                     </Row>
                     <Row className="py-1">
@@ -54,8 +50,10 @@ class Project extends React.Component {
                     </Row>
                     <Row>
                         <Col className="text-2">
-                            A lightweight RESTful API utilising key features from Netlify and Heroku to allow clear
-                            communication between a PostgreSQL database and React/Redux front-end app.
+                            I used React, Bootstrap, CSS in order to create this site alongside a host of smaller packages.
+                            This site is responsive and is easily viewed on both mobile and laptops
+                            (try the other medium out)!  It has been a fun project and will be regularly updated as I
+                            imropve my skills and complete new projects.
                         </Col>
                     </Row>
                     <Row className="py-2 text-start">
@@ -79,26 +77,12 @@ class Project extends React.Component {
                             <br />
                             <IoLogoReact /> React
                             <br/>
-                            <SiRedux /> Redux
-                            <br/>
                             <BsBootstrap /> Bootstrap
                             <br/>
                             <IoLogoCss3 /> CSS
                         </Col>
                         <Col>
-                            Back-End:<br />
-                            <FaNodeJs /> Node.js
-                            <br/>
-                            <SiGraphql /> GraphQL
-                        </Col>
-                        <Col>
-                            Database:<br />
-                            <SiPostgresql /> PostgreSQL
-                        </Col>
-                        <Col>
                             Hosting: <br/>
-                            <GrHeroku /> Heroku
-                            <br/>
                             <SiNetlify/> Netlify
                         </Col>
                     </Row>
@@ -107,7 +91,7 @@ class Project extends React.Component {
                     <img className="project-thumbnail" src={CTC} alt={"Convert That Climb"} />
                 </Col>
 
-                <ProjectModal
+                <PortfolioSiteModal
                     onHide={this.modalHide}
                     show={this.state.modalShow}
                 />
@@ -116,4 +100,4 @@ class Project extends React.Component {
     }
 }
 
-export default Project
+export default PortfolioSite

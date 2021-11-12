@@ -1,6 +1,7 @@
 import ReactStars from "react-rating-stars-component";
 import {Row, Col, Container} from "react-bootstrap";
 import './Skills.css';
+import React from "react";
 
 export const Skills = () => {
     return (
@@ -17,7 +18,7 @@ export const Skills = () => {
                     <div className="skills-header">
                         Front-End
                     </div>
-                    <StarRatingWithDescription rating={4} description="React" />
+                    <StarRatingWithDescription rating={4} description="React" tooltip="react lol" />
                     <StarRatingWithDescription rating={4} description="Bootstrap" />
                     <StarRatingWithDescription rating={2} description="Redux" />
                     <StarRatingWithDescription rating={3} description="Javascript" />
@@ -73,7 +74,13 @@ export const Skills = () => {
                     </div>
                     <StarRatingWithDescription rating={3} description="NUnit" />
                     <StarRatingWithDescription rating={1} description="xUnit.NET" />
-                    <StarRatingWithDescription rating={2} description="Jest" />
+                    {/*<OverlayTrigger*/}
+                    {/*    placement="right"*/}
+                    {/*    delay={{show: 100, hide: 400}}*/}
+                    {/*    overlay={renderTooltip}*/}
+                    {/*>*/}
+                        <StarRatingWithDescription rating={2} description="Jest" />
+                    {/*</OverlayTrigger>*/}
                 </Col>
             </Row>
             <Row>
@@ -111,13 +118,13 @@ const StarRatingWithDescription = (props) => {
 
 const StarRating5Max = (props) => {
     return (
-        <ReactStars
-            classNames="star"
-            count={5}
-            size={20}
-            value ={props.rating}
-            activeColor="#ffd700"
-            edit={false}
-        />
+            <ReactStars
+                classNames="star"
+                count={5}
+                size={20}
+                value ={props.rating}
+                activeColor="#ffd700"
+                edit={false}
+            />
     )
 }

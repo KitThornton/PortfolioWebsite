@@ -14,7 +14,7 @@ import {
 } from "react-icons/all";
 // import {IconContext} from "react-icons";
 
-export default function ProjectModal(props) {
+export default function ConvertThatClimbModal(props) {
 
     return(
 
