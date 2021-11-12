@@ -1,26 +1,34 @@
 .CV {
-    padding-top: 2vh;
-    padding-bottom: 1vh;
+    padding: 2vh 0 1vh ;
 }
 .btn-page {
-    font-size: medium !important;
+    /*font-size: medium !important;*/
 }
 .icon {
     /*size: 1em;*/
 }
-/*.CV-page {*/
-/*    padding: 2% 1% 1% 2%;*/
-/*    width: 90px;*/
-/*    !*max-width: 90px;*!*/
-/*    !*height: auto;*!*/
-/*}*/
 #placeholderWrapper {
     width: 1vw;
     height: 1vh;
 }
-#pdfWrapper {
-    width: 90%;
-    height: auto;
-    padding: 1% 5% 5%;
+
+@media screen and (max-width: 767px) {
+    #pdfWrapper {
+        width: 80vw;
+        height: auto;
+        padding: 1% 0 5%;
+    }
 }
-/*id="row" style={{height: "auto", width: "100vw", display: "flex", overflow: "hidden"}}*/
+@media screen and (min-width: 767px) {
+    #pdfWrapper {
+        width: 90%;
+        height: auto;
+        padding: 1% 5% 5%;
+    }
+    .page-numbers {
+        font-size: larger !important;
+    }
+    .btn-page {
+        font-size: larger !important;
+    }
+}

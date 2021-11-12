@@ -4,7 +4,7 @@ import {Button, Container, Row, Col, Tooltip, OverlayTrigger} from "react-bootst
 import {RiFileDownloadLine} from 'react-icons/all';
 import {Link} from "react-router-dom";
 import file from '../cv_142.pdf'
-// import Thornton_Kit_close from "../Thornton_Kit_close.jpg"
+import Thornton_Kit_close from "../Thornton_Kit_close.jpg"
 import './CV.css';
 import throttle from "lodash.throttle";
 import {IconContext} from "react-icons";
@@ -63,15 +63,15 @@ export default class CV extends React.Component {
 
         return (
             <div>
-            <Container fluid className="CV d-none d-md-inline-block my-auto">
+            <Container fluid className="CV my-auto "> {/*d-md-inline-block*/}
                 <Row>
-                    <Col className="my-auto">
+                    <Col className="page-numbers my-auto d-none d-md-inline-block">
                         Page {this.state.pageNumber} of {this.state.numPages}
                     </Col>
                     <Col className="icon my-auto">
                         <Overlay />
                     </Col>
-                    <Col className="my-auto">
+                    <Col className="my-auto d-none d-md-inline-block">
                         <Button
                             type="button"
                             disabled={this.state.pageNumber <= 1}
@@ -81,7 +81,6 @@ export default class CV extends React.Component {
                         >
                             Previous
                         </Button>
-
                         <Button
                             type="button"
                             variant="secondary"
@@ -95,7 +94,7 @@ export default class CV extends React.Component {
                 </Row>
 
                 <Row>
-                    <Col>
+                    <Col className="d-none d-md-block">
                         <div id="placeholderWrapper"/>
                         <div id="pdfWrapper" ref={(ref) => this.pdfWrapper = ref}>
                             <Document
@@ -108,8 +107,29 @@ export default class CV extends React.Component {
                     </Col>
                 </Row>
             </Container>
-            {/*<img src={Thornton_Kit_close} className="d-inline-block d-md-none" style={{width:"100%", height:"auto"}} alt={"test"}/>*/}
-        </div>
+            <div  className="d-block d-md-none">
+                <div id="placeholderWrapper"/>
+                <div id="pdfWrapper" ref={(ref) => this.pdfWrapper = ref}>
+                    <Document
+                        file={file}
+                        onLoadSuccess={this.onDocumentLoadSuccess}
+                    >
+                        {Array.from(
+                            new Array(this.state.numPages),
+                            (el, index) => (
+                                <Page
+                                    key={`page_${index + 1}`}
+                                    pageNumber={index + 1}
+                                />
+                            ),
+                        )}
+                    </Document>
+                </div>
+            </div>
+            {/*<img src={file} className="d-inline-block d-md-none" style={{width:"100%", height:"auto"}} alt={"test"}/>*/}
+            {/*<embed type="application/pdf" src={file} height="100px" width="100px" scrolling="auto"/> /!*" style={{width: "100%", height: "auto"}} *!/*/}
+            {/*<iframe src={file} style={{width: "100%", height: "auto"}}/>*/}
+            </div>
         )
     }
 }
