@@ -1,5 +1,5 @@
 import React from 'react';
-import {AiOutlineLinkedin, AiFillGithub, AiOutlineMail, BsFacebook } from "react-icons/all";
+import {AiOutlineLinkedin, AiFillGithub, AiOutlineMail, BsFacebook, ImWhatsapp} from "react-icons/all";
 import {Container, Row, Col} from "react-bootstrap";
 import './Contact.css';
 
@@ -18,6 +18,9 @@ const Contact = () => {
                 </Col>
                 <Col>
                     <a target="blank" href="https://www.facebook.com/kit.thornton.7/"><BsFacebook /></a>
+                </Col>
+                <Col>
+                    <a target="blank" href="https://api.whatsapp.com/send?phone=420739052812"><ImWhatsapp /></a>
                 </Col>
             </Row>
         </Container>

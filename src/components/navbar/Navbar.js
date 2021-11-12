@@ -30,37 +30,37 @@ export const VerticalNavbar = (props) => {
                                  className="flex-column d-md-block text-center"
                                  fill
                             >
-                                <Nav.Item>
+                                <Nav.Item className="py-1">
                                     <NavLink to="/home" activeClassName="active" className="link d-md-none">
                                         HOME
                                     </NavLink>
                                 </Nav.Item>
 
-                                <Nav.Item>
+                                <Nav.Item className="py-1">
                                     <NavLink to="/skills" activeClassName="active" className="link">
                                         SKILLS
                                     </NavLink>
                                 </Nav.Item>
 
-                                <Nav.Item>
+                                <Nav.Item className="py-1">
                                     <NavLink to="/experience" activeClassName="active" className="link">
                                         EXPERIENCE
                                     </NavLink>
                                 </Nav.Item>
 
-                                <Nav.Item>
+                                <Nav.Item className="py-1">
                                     <NavLink to="/projects" activeClassName="active" className="link">
                                         PROJECTS
                                     </NavLink>
                                 </Nav.Item>
 
-                                <Nav.Item>
+                                <Nav.Item className="py-1">
                                     <NavLink to="/cv" activeClassName="active" className="link">
                                         CV
                                     </NavLink>
                                 </Nav.Item>
 
-                                <Nav.Item>
+                                <Nav.Item className="py-1">
                                     <NavLink to="/contact" activeClassName="active" className="link">
                                         CONTACT
                                     </NavLink>
