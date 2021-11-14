@@ -5,7 +5,7 @@ import React from "react";
 
 export const Skills = () => {
     return (
-        <Container>
+        <Container className="pb-3">
             <h1 className="pt-3">Skills</h1>
             <Row>
                 <Col className="skills-text">
@@ -34,6 +34,7 @@ export const Skills = () => {
                     <StarRatingWithDescription rating={4} description="Node.js"/>
                     <StarRatingWithDescription rating={3} description=".NET Core"/>
                     <StarRatingWithDescription rating={2} description=".NET MVC"/>
+                    <StarRatingWithDescription rating={2} description="GraphQL"/>
                     <StarRatingWithDescription rating={2} description="VB.NET"/>
                     <StarRatingWithDescription rating={1} description="Python"/>
                 </Col>
@@ -55,7 +56,7 @@ export const Skills = () => {
                     <StarRatingWithDescription rating={3} description="Netlify"/>
                     <StarRatingWithDescription rating={2} description="AWS"/>
                     <StarRatingWithDescription rating={3} description="Team City"/>
-                    <StarRatingWithDescription rating={2} description="Team Foundation Server"/>
+                    <StarRatingWithDescription rating={2} description="TFS"/>
                 </Col>
             </Row>
             <Row>
@@ -74,13 +75,9 @@ export const Skills = () => {
                     </div>
                     <StarRatingWithDescription rating={3} description="NUnit"/>
                     <StarRatingWithDescription rating={1} description="xUnit.NET"/>
-                    {/*<OverlayTrigger*/}
-                    {/*    placement="right"*/}
-                    {/*    delay={{show: 100, hide: 400}}*/}
-                    {/*    overlay={renderTooltip}*/}
-                    {/*>*/}
                     <StarRatingWithDescription rating={2} description="Jest"/>
-                    {/*</OverlayTrigger>*/}
+                    <StarRatingWithDescription rating={3} description="TDD"/>
+                    <StarRatingWithDescription rating={2} description="BDD"/>
                 </Col>
             </Row>
             <Row>
@@ -89,14 +86,14 @@ export const Skills = () => {
                         Tools
                     </div>
                     <StarRatingWithDescription rating={4} description="Visual Studio"/>
-                    <StarRatingWithDescription rating={4} description="JetBrains products"/>
+                    <StarRatingWithDescription rating={4} description="JetBrains tools"/>
                     <StarRatingWithDescription rating={4} description="Resharper"/>
                 </Col>
                 <Col>
                     <div className="skills-header">
-                        Testing
+                        Miscellaneous
                     </div>
-                    <StarRatingWithDescription rating={3} description="NUnit"/>
+                    <StarRatingWithDescription rating={3} description="French"/>
                 </Col>
             </Row>
         </Container>

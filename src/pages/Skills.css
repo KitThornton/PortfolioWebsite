@@ -1,16 +1,12 @@
 .skills-text {
-    font-size: large;
+    font-size: x-large;
     white-space: initial;
+    text-align: left;
 }
 
 .skills-header {
     font-size: large;
     padding-top: 4%;
-}
-
-.skills-description {
-    font-size: large;
-    /*text-align: left;*/
 }
 
 .skills-description-row:hover {
@@ -21,8 +17,30 @@
 }
 
 .star {
-    size: 30px;
+    size: 40px;
+    font-size: 40px;
 }
+
+@media screen and (max-width: 767px) {
+    .skills-text {
+        font-size: large;
+    }
+    .skills-description {
+        font-size: large;
+        /*text-align: left;*/
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .skills-text {
+        font-size: x-large;
+    }
+    .skills-description {
+        font-size: large;
+        /*text-align: left;*/
+    }
+}
+
 
 /*.skills-description-row:hover .skills-description {*/
 /*    !*padding-left: 10%;*!*/
