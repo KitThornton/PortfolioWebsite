@@ -163,7 +163,32 @@ const FNZ = () => {
                 <h4>Graduate Software Developer</h4>
                 <div className="d-none d-md-block">
                     <h6>
-                        Overview into what I was doing here
+                        I worked as a full-stack developer specialising in C# within .NET and MS SQL Server. Here's
+                        a run down of tasks and responsibilities I undertook:
+                        <ul>
+                            <li>
+                                I worked as an all-rounder who analysed required system changes, designed databases, wrote
+                                complex financial business logic and created slick web applications.
+                            </li>
+                            <li>
+                                My responsibilities included building new platform features in-line with the client requirements
+                                and also defect fixing to ensure that the platform runs smoothly. These tasks included anything from
+                                an hour’s work to a week’s depending on the scope of the task. The frameworks I use are .NET Core and
+                                ASP.NET with the primary back-end languages I use are C# and VB.NET. The front-end languages/packages
+                                I used were React.js and Bootstrap which I found extremely exciting! Finally, I use Microsoft SQL Server
+                                in the capacity of writing and optimising views and stored procedures alongside querying including joins,
+                                defining relationships, indexes and automated actions.
+                            </li>
+                            <li>
+                                I worked closely with testers and other members of the project team to produce efficient software
+                                enhancements.Therefore,I have studied financial and business logic extensively and undertaken industry-specific training.
+                            </li>
+                            <li>
+                                I worked in an Agile team under SCRUM methodologies. I aided in planning and sizing sprints
+                                through estimating the time taken for specific developers to complete tasks. I enjoyed this side of development
+                                as it taught me a significant amount about management and sprint planning.
+                            </li>
+                        </ul>
                     </h6>
                 </div>
             </Col>
