@@ -23,7 +23,7 @@ export default function PortfolioSiteModal(props) {
                 <Modal.Title id="contained-modal-title-vcenter">
                     <Row className="mx-0">
                         <Col xs={12} lg={8} className="my-auto">
-                            <a href="https://www.convertthatclimb.co.uk/" target="_blank" rel="noreferrer">
+                            <a href="https://www.kitthornton.dev/" target="_blank" rel="noreferrer">
                                 <h1>Portfolio Website</h1>
                             </a>
                         </Col>
@@ -46,7 +46,9 @@ export default function PortfolioSiteModal(props) {
                     </Row>
                     <Row>
                         <Col className="text">
-                            Dummy yetctt ehrere
+                            This site is used as a portfolio for my work undertaken as a full-stack developer. The aims
+                            being that it will help showcase my work, increase client interactions and help me develop
+                            my front-end skills in the process.
                         </Col>
                     </Row>
                     <Row>
@@ -56,7 +58,14 @@ export default function PortfolioSiteModal(props) {
                     </Row>
                     <Row>
                         <Col className="text">
-                            Dummy yetctt ehrere
+                            I used React, Bootstrap, CSS and a host of smaller packages to create this site. This project
+                            was particularly interesting as I placed a heavy emphasis on making the site responsive to
+                            ensure that the experience will be enjoyable both on mobile and laptop. I created a library
+                            of re-usable React components that provided a good foundation to ensure that the code was
+                            consistent, easily maintainable and any slight tweaks were easy and fast to deploy. I used
+                            GitHub to deploy straight to Netlify whilst using Netlify's built-in CI/CD pipeline. This
+                            ensured a very fast development speed and increased the user testing I could perform on the
+                            intended domain seen above.
                         </Col>
                     </Row>
                     <Row>
@@ -66,7 +75,7 @@ export default function PortfolioSiteModal(props) {
                     </Row>
                     <Row>
                         <Col className="text">
-                            I used a primarily Javascript for this project and the full tech stack can be seen below.
+                            I used Javascript for this project and the full tech stack can be seen below.
                             The GitHub repository can be seen below:
                         </Col>
                     </Row>
@@ -78,7 +87,8 @@ export default function PortfolioSiteModal(props) {
                         <Col>
                             Project Management:
                             <br />
-                            <a href="https://github.com/KitThornton/PortfolioWebsite" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/KitThornton/PortfolioWebsite" target="_blank" rel="noreferrer"
+                            className="github">
                                 <BsGithub /> GitHub
                             </a>
                         </Col>
@@ -109,23 +119,21 @@ export default function PortfolioSiteModal(props) {
                             it greatly. I've summarised the key outcomes below:
                             <ul>
                                 <li>
-                                    Redux is a necessity  when building React applications as it allows the components
-                                    to be written more succinctly and requests can be reused easily. Furthermore, centralising the
-                                    state will be essential when creating a multi-page application.
-                                </li>
-                                <li>
-                                    Through using two separate GitHub repositories, one for the front-end app and another
-                                    for the API allows Netlify and Heroku to be used more easily.
-                                </li>
-                                <li>
-                                    Using a single CSS framework reduces confusion between similar functionalites between
-                                    different frameworks. Using solely React-Bootstrap as oppose to part Reactstrap or
-                                    MaterialUI is more beneficial. Further styling can be applied simply with CSS.
-                                </li>
-                                <li>
                                     Prioritise developing a responsive application from the get-go. You should be constantly
                                     thinking about how the app will look on a mobile. Using Chrome/Firefox dev tools helps
                                     us out with this.
+                                </li>
+                                <li>
+                                    Bootstrap and other CSS frameworks are very useful and speed up development speed.
+                                    However there are limits and it should always be expected that writing pure CSS
+                                    will be needed to ensure a good, responsive application.
+                                </li>
+                                <li>
+                                    UI design is more challenging than often thought! It is best to sketch out a plan
+                                    for thw site or individual pages / components before coding them in. This allows
+                                    a more creative approach to styling initially and usually reduces development
+                                    time as the code can be written to fit the screen mock up and then minor adjustments
+                                    can be made.
                                 </li>
                             </ul>
                         </Col>

@@ -8,9 +8,10 @@
     /*padding-left: 25%;*/
     font-family: 'Space Grotesk', sans-serif;
     /*overflow-y: auto;*/
+    font-size: medium;
 }
 a {
-    font-size: medium;
+    font-size: x-small;
 }
 .icon {
     size: 4em;
@@ -19,10 +20,16 @@ a {
     .project-modal {
         padding: 5% 5% 5%;
     }
+    .github {
+        font-size: small;
+    }
 }
 @media screen and (min-width: 767px) {
     .project-modal {
         padding: 0 0 5% 25%;
+    }
+    .github {
+        font-size: medium;
     }
 }
 .text {

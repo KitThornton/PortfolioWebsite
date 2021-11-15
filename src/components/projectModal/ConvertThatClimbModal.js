@@ -8,11 +8,11 @@ import {
     GrHeroku,
     IoLogoCss3,
     IoLogoReact,
-    SiGraphql, SiNetlify,
+    AiOutlineCloud,
+    SiNetlify,
     SiPostgresql,
     SiRedux
 } from "react-icons/all";
-// import {IconContext} from "react-icons";
 
 export default function ConvertThatClimbModal(props) {
 
@@ -109,7 +109,7 @@ export default function ConvertThatClimbModal(props) {
                             Back-End:<br />
                             <FaNodeJs /> Node.js
                             <br/>
-                            <SiGraphql /> GraphQL
+                            <AiOutlineCloud /> REST API
                         </Col>
                         <Col>
                             Database:<br />
@@ -145,11 +145,6 @@ export default function ConvertThatClimbModal(props) {
                                     Using a single CSS framework reduces confusion between similar functionalites between
                                     different frameworks. Using solely React-Bootstrap as oppose to part Reactstrap or
                                     MaterialUI is more beneficial. Further styling can be applied simply with CSS.
-                                </li>
-                                <li>
-                                    Prioritise developing a responsive application from the get-go. You should be constantly
-                                    thinking about how the app will look on a mobile. Using Chrome/Firefox dev tools helps
-                                    us out with this.
                                 </li>
                             </ul>
                         </Col>

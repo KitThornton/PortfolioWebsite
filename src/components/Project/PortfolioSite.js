@@ -1,9 +1,9 @@
 import React from "react";
 import {Button, Col, Row} from "react-bootstrap";
 import PortfolioSiteModal from "../projectModal/PortfolioSiteModal";
-import CTC from "../../CTC.png";
-import './Project.css';
 import {IoLogoReact, BsBootstrap, IoLogoCss3, SiNetlify} from 'react-icons/all'
+import PortfolioSitePNG from "../../PortfolioSite2.png";
+import './Project.css';
 
 class PortfolioSite extends React.Component {
     constructor(props) {
@@ -51,9 +51,9 @@ class PortfolioSite extends React.Component {
                     <Row>
                         <Col className="text-2">
                             I used React, Bootstrap, CSS in order to create this site alongside a host of smaller packages.
-                            This site is responsive and is easily viewed on both mobile and laptops
-                            (try the other medium out)!  It has been a fun project and will be regularly updated as I
-                            imropve my skills and complete new projects.
+                            This site is responsive and is seamlessly viewed on both mobile and laptops
+                            (try the other one out)!  It has been a fun project and will be regularly updated as I
+                            improve my skills and complete new projects.
                         </Col>
                     </Row>
                     <Row className="py-2 text-start">
@@ -82,13 +82,15 @@ class PortfolioSite extends React.Component {
                             <IoLogoCss3 /> CSS
                         </Col>
                         <Col>
-                            Hosting: <br/>
+                            DevOps: <br/>
                             <SiNetlify/> Netlify
                         </Col>
                     </Row>
                 </Col>
                 <Col xs="12" md="6" lg="4" className="my-auto mx-auto">
-                    <img className="project-thumbnail" src={CTC} alt={"Convert That Climb"} />
+                    <span onClick={this.modalShow}>
+                        <img className="project-thumbnail" src={PortfolioSitePNG} alt={"Convert That Climb"} />
+                    </span>
                 </Col>
 
                 <PortfolioSiteModal

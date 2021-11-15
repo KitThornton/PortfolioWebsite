@@ -10,7 +10,6 @@ export const Skills = () => {
             <Row>
                 <Col className="skills-text">
                     Here's a breakdown of my professional skills acquired through both commercial and personal use.
-
                 </Col>
             </Row>
             <Row>
@@ -18,7 +17,7 @@ export const Skills = () => {
                     <div className="skills-header">
                         Front-End
                     </div>
-                    <StarRatingWithDescription rating={4} description="React" tooltip="react lol"/>
+                    <StarRatingWithDescription rating={4} description="React"/>
                     <StarRatingWithDescription rating={4} description="Bootstrap"/>
                     <StarRatingWithDescription rating={2} description="Redux"/>
                     <StarRatingWithDescription rating={3} description="Javascript"/>

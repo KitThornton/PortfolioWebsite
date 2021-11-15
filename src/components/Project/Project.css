@@ -15,3 +15,6 @@
     white-space: initial;
     text-align: left;
 }
+span {
+    cursor: help;
+}

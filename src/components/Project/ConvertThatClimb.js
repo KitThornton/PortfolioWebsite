@@ -4,7 +4,7 @@ import ConvertThatClimbModal from "../projectModal/ConvertThatClimbModal";
 import CTC from "../../CTC.png";
 import './Project.css';
 import {IoLogoReact, SiRedux, BsBootstrap,
-    FaNodeJs, SiPostgresql, IoLogoCss3, SiGraphql, GrHeroku, SiNetlify} from 'react-icons/all'
+    FaNodeJs, SiPostgresql, IoLogoCss3, AiOutlineCloud, GrHeroku, SiNetlify} from 'react-icons/all'
 
 class ConvertThatClimb extends React.Component {
     constructor(props) {
@@ -86,14 +86,14 @@ class ConvertThatClimb extends React.Component {
                             Back-End:<br />
                             <FaNodeJs /> Node.js
                             <br/>
-                            <SiGraphql /> GraphQL
+                            <AiOutlineCloud /> REST API
                         </Col>
                         <Col>
                             Database:<br />
                             <SiPostgresql /> PostgreSQL
                         </Col>
                         <Col>
-                            Hosting: <br/>
+                            DevOps: <br/>
                             <GrHeroku /> Heroku
                             <br/>
                             <SiNetlify/> Netlify
@@ -101,7 +101,9 @@ class ConvertThatClimb extends React.Component {
                     </Row>
                 </Col>
                 <Col xs="12" md="6" lg="4" className="my-auto mx-auto">
-                    <img className="project-thumbnail" src={CTC} alt={"Convert That Climb"} />
+                    <span onClick={this.modalShow}>
+                        <img className="project-thumbnail" src={CTC} alt={"Convert That Climb"} />
+                    </span>
                 </Col>
 
                 <ConvertThatClimbModal
