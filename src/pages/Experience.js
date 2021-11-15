@@ -160,7 +160,7 @@ const FNZ = () => {
                 <h6>Sep 2019 - May 2021</h6>
             </Col>
             <Col xs={12} md={8}>
-                <h4>Graduate Software Developer</h4>
+                <h4>Software Developer</h4>
                 <div className="d-none d-md-block">
                     <h6>
                         I worked as a full-stack developer specialising in C# within .NET and MS SQL Server. Here's
