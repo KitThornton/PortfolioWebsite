@@ -6,6 +6,7 @@ import {Home} from "./pages/Home";
 import {Projects} from "./pages/Projects";
 import {Contact} from "./pages/Contact";
 import {Skills} from "./pages/Skills";
+import {Experience} from "./pages/Experience";
 import CV from "./pages/CV"
 import './App.css';
 
@@ -36,14 +37,6 @@ function App() {
             </div>
         </Router>
     );
-}
-
-const Experience = () => {
-    return (
-        <div>
-            <h1 className="pt-3">Experience</h1>
-        </div>
-    )
 }
 
 export default App;

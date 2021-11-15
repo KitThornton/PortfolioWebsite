@@ -1,0 +1,18 @@
+.education-single {
+    white-space: initial;
+}
+h3 {
+    font-weight: bold;
+}
+.divider-wrapper {
+    height: 2em;
+}
+.divider {
+    border-bottom: #93c4ec solid 1px;
+    height: 1px;
+    position: relative;
+    top: 50%
+}
+a {
+    font-size: inherit;
+}
