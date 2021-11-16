@@ -3,7 +3,7 @@ import {Document, Page} from 'react-pdf/dist/umd/entry.webpack';
 import {Button, Col, Container, OverlayTrigger, Row, Tooltip} from "react-bootstrap";
 import {RiFileDownloadLine} from 'react-icons/all';
 import {Link} from "react-router-dom";
-import file from '../cv_142.pdf'
+import file from '../Kit_Thornton_CV.pdf'
 // import Thornton_Kit_close from "../Thornton_Kit_close.jpg"
 import './CV.css';
 import throttle from "lodash.throttle";
