@@ -5,16 +5,19 @@
     max-height: 100%;
     border-radius: 5%;
 }
+
 .text-1 {
     font-size: large;
     white-space: initial;
     text-align: left;
 }
+
 .text-2 {
     font-size: medium;
     white-space: initial;
     text-align: left;
 }
+
 span {
     cursor: help;
 }

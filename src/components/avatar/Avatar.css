@@ -3,22 +3,28 @@
     max-width: 60%;
     height: auto;
 }
+
 .row {
     text-align: center;
 }
+
 .name {
     font-size: xx-large;
 }
+
 .caption {
     font-size: x-large;
 }
+
 a, a:visited, a:hover, a:active {
     color: inherit !important;
     text-decoration: none !important;
 }
+
 .container {
     white-space: nowrap;
 }
+
 .link {
     font-weight: normal !important;
 }

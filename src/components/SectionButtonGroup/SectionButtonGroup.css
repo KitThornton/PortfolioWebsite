@@ -4,11 +4,13 @@ Button {
     color: floralwhite !important;
     /*font-family: 'Space Grotesk', sans-serif !important;*/
 }
+
 @media screen and (max-width: 767px) {
     Button {
         font-size: large !important;
     }
 }
+
 @media screen and (min-width: 767px) {
     Button {
         font-size: x-large !important;

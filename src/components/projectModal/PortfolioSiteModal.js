@@ -1,18 +1,11 @@
 import React from 'react';
-import { Modal,  Button, Row, Col, Container } from 'react-bootstrap';
-import {BsGithub} from 'react-icons/all';
+import {Button, Col, Container, Modal, Row} from 'react-bootstrap';
+import {BsBootstrap, BsGithub, GrHeroku, IoLogoCss3, IoLogoReact, SiNetlify} from 'react-icons/all';
 import './ProjectModal.css';
-import {
-    BsBootstrap,
-    GrHeroku,
-    IoLogoCss3,
-    IoLogoReact,
-    SiNetlify,
-} from "react-icons/all";
 
 export default function PortfolioSiteModal(props) {
 
-    return(
+    return (
 
         <Modal
             aria-labelledby="contained-modal-title-vcenter"
@@ -27,7 +20,7 @@ export default function PortfolioSiteModal(props) {
                                 <h1>Portfolio Website</h1>
                             </a>
                         </Col>
-                        <Col xs={12} lg={4} className="my-auto" >
+                        <Col xs={12} lg={4} className="my-auto">
                             <h6>
                                 <a target="_blank" rel="noreferrer" href="https://www.kitthornton.dev/">
                                     www.kitthornton.dev
@@ -58,7 +51,8 @@ export default function PortfolioSiteModal(props) {
                     </Row>
                     <Row>
                         <Col className="text">
-                            I used React, Bootstrap, CSS and a host of smaller packages to create this site. This project
+                            I used React, Bootstrap, CSS and a host of smaller packages to create this site. This
+                            project
                             was particularly interesting as I placed a heavy emphasis on making the site responsive to
                             ensure that the experience will be enjoyable both on mobile and laptop. I created a library
                             of re-usable React components that provided a good foundation to ensure that the code was
@@ -86,24 +80,24 @@ export default function PortfolioSiteModal(props) {
                     <Row>
                         <Col>
                             Project Management:
-                            <br />
+                            <br/>
                             <a href="https://github.com/KitThornton/PortfolioWebsite" target="_blank" rel="noreferrer"
-                            className="github">
-                                <BsGithub /> GitHub
+                               className="github">
+                                <BsGithub/> GitHub
                             </a>
                         </Col>
                         <Col>
                             Front-End:
-                            <br />
-                            <IoLogoReact /> React
                             <br/>
-                            <BsBootstrap /> Bootstrap
+                            <IoLogoReact/> React
                             <br/>
-                            <IoLogoCss3 /> CSS
+                            <BsBootstrap/> Bootstrap
+                            <br/>
+                            <IoLogoCss3/> CSS
                         </Col>
                         <Col>
                             DevOps: <br/>
-                            <GrHeroku /> Heroku
+                            <GrHeroku/> Heroku
                             <br/>
                             <SiNetlify/> Netlify
                         </Col>
@@ -119,8 +113,10 @@ export default function PortfolioSiteModal(props) {
                             it greatly. I've summarised the key outcomes below:
                             <ul>
                                 <li>
-                                    Prioritise developing a responsive application from the get-go. You should be constantly
-                                    thinking about how the app will look on a mobile. Using Chrome/Firefox dev tools helps
+                                    Prioritise developing a responsive application from the get-go. You should be
+                                    constantly
+                                    thinking about how the app will look on a mobile. Using Chrome/Firefox dev tools
+                                    helps
                                     us out with this.
                                 </li>
                                 <li>
@@ -130,7 +126,7 @@ export default function PortfolioSiteModal(props) {
                                 </li>
                                 <li>
                                     UI design is more challenging than often thought! It is best to sketch out a plan
-                                    for thw site or individual pages / components before coding them in. This allows
+                                    for the site or individual pages / components before coding them in. This allows
                                     a more creative approach to styling initially and usually reduces development
                                     time as the code can be written to fit the screen mock up and then minor adjustments
                                     can be made.

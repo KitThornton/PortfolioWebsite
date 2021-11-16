@@ -1,7 +1,7 @@
 import React from "react";
 import {Button, Col, Row} from "react-bootstrap";
 import PortfolioSiteModal from "../projectModal/PortfolioSiteModal";
-import {IoLogoReact, BsBootstrap, IoLogoCss3, SiNetlify} from 'react-icons/all'
+import {BsBootstrap, IoLogoCss3, IoLogoReact, SiNetlify} from 'react-icons/all'
 import PortfolioSitePNG from "../../PortfolioSite2.png";
 import './Project.css';
 
@@ -50,9 +50,10 @@ class PortfolioSite extends React.Component {
                     </Row>
                     <Row>
                         <Col className="text-2">
-                            I used React, Bootstrap, CSS in order to create this site alongside a host of smaller packages.
+                            I used React, Bootstrap, CSS in order to create this site alongside a host of smaller
+                            packages.
                             This site is responsive and is seamlessly viewed on both mobile and laptops
-                            (try the other one out)!  It has been a fun project and will be regularly updated as I
+                            (try the other one out)! It has been a fun project and will be regularly updated as I
                             improve my skills and complete new projects.
                         </Col>
                     </Row>
@@ -74,12 +75,12 @@ class PortfolioSite extends React.Component {
                     <Row>
                         <Col>
                             Front-End:
-                            <br />
-                            <IoLogoReact /> React
                             <br/>
-                            <BsBootstrap /> Bootstrap
+                            <IoLogoReact/> React
                             <br/>
-                            <IoLogoCss3 /> CSS
+                            <BsBootstrap/> Bootstrap
+                            <br/>
+                            <IoLogoCss3/> CSS
                         </Col>
                         <Col>
                             DevOps: <br/>
@@ -89,7 +90,7 @@ class PortfolioSite extends React.Component {
                 </Col>
                 <Col xs="12" md="6" lg="4" className="my-auto mx-auto">
                     <span onClick={this.modalShow}>
-                        <img className="project-thumbnail" src={PortfolioSitePNG} alt={"Convert That Climb"} />
+                        <img className="project-thumbnail" src={PortfolioSitePNG} alt={"Convert That Climb"}/>
                     </span>
                 </Col>
 

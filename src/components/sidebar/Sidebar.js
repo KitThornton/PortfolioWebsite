@@ -5,7 +5,7 @@ import './Sidebar.css'
 const Sidebar = () => {
     return (
         <div className="sidebar">
-            <HeaderWithRouter />
+            <HeaderWithRouter/>
         </div>
     )
 };

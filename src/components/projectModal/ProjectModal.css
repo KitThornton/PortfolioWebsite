@@ -10,31 +10,39 @@
     /*overflow-y: auto;*/
     font-size: medium;
 }
+
 a {
     font-size: x-small;
 }
+
 .icon {
     size: 4em;
 }
+
 @media screen and (max-width: 767px) {
     .project-modal {
         padding: 5% 5% 5%;
     }
+
     .github {
         font-size: small;
     }
 }
+
 @media screen and (min-width: 767px) {
     .project-modal {
         padding: 0 0 5% 25%;
     }
+
     .github {
         font-size: medium;
     }
 }
+
 .text {
     white-space: initial !important;
 }
+
 .section-title {
     text-align: left;
     padding: 1% 0 1%;

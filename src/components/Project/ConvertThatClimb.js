@@ -3,8 +3,17 @@ import {Button, Col, Row} from "react-bootstrap";
 import ConvertThatClimbModal from "../projectModal/ConvertThatClimbModal";
 import CTC from "../../CTC.png";
 import './Project.css';
-import {IoLogoReact, SiRedux, BsBootstrap,
-    FaNodeJs, SiPostgresql, IoLogoCss3, AiOutlineCloud, GrHeroku, SiNetlify} from 'react-icons/all'
+import {
+    AiOutlineCloud,
+    BsBootstrap,
+    FaNodeJs,
+    GrHeroku,
+    IoLogoCss3,
+    IoLogoReact,
+    SiNetlify,
+    SiPostgresql,
+    SiRedux
+} from 'react-icons/all'
 
 class ConvertThatClimb extends React.Component {
     constructor(props) {
@@ -40,8 +49,8 @@ class ConvertThatClimb extends React.Component {
                     </Row>
                     <Row>
                         <Col className="text-1">
-                                This website enables the user to convert equivalent climbing grades between different
-                                systems for both route climbing and bouldering.
+                            This website enables the user to convert equivalent climbing grades between different
+                            systems for both route climbing and bouldering.
                         </Col>
                     </Row>
                     <Row className="py-1">
@@ -73,28 +82,28 @@ class ConvertThatClimb extends React.Component {
                     <Row>
                         <Col>
                             Front-End:
-                            <br />
-                            <IoLogoReact /> React
                             <br/>
-                            <SiRedux /> Redux
+                            <IoLogoReact/> React
                             <br/>
-                            <BsBootstrap /> Bootstrap
+                            <SiRedux/> Redux
                             <br/>
-                            <IoLogoCss3 /> CSS
+                            <BsBootstrap/> Bootstrap
+                            <br/>
+                            <IoLogoCss3/> CSS
                         </Col>
                         <Col>
-                            Back-End:<br />
-                            <FaNodeJs /> Node.js
+                            Back-End:<br/>
+                            <FaNodeJs/> Node.js
                             <br/>
-                            <AiOutlineCloud /> REST API
+                            <AiOutlineCloud/> REST API
                         </Col>
                         <Col>
-                            Database:<br />
-                            <SiPostgresql /> PostgreSQL
+                            Database:<br/>
+                            <SiPostgresql/> PostgreSQL
                         </Col>
                         <Col>
                             DevOps: <br/>
-                            <GrHeroku /> Heroku
+                            <GrHeroku/> Heroku
                             <br/>
                             <SiNetlify/> Netlify
                         </Col>
@@ -102,7 +111,7 @@ class ConvertThatClimb extends React.Component {
                 </Col>
                 <Col xs="12" md="6" lg="4" className="my-auto mx-auto">
                     <span onClick={this.modalShow}>
-                        <img className="project-thumbnail" src={CTC} alt={"Convert That Climb"} />
+                        <img className="project-thumbnail" src={CTC} alt={"Convert That Climb"}/>
                     </span>
                 </Col>
 

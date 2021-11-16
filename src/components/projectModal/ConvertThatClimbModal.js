@@ -1,22 +1,22 @@
 import React from 'react';
-import { Modal,  Button, Row, Col, Container } from 'react-bootstrap';
-import {BsGithub} from 'react-icons/all';
-import './ProjectModal.css';
+import {Button, Col, Container, Modal, Row} from 'react-bootstrap';
 import {
+    AiOutlineCloud,
     BsBootstrap,
+    BsGithub,
     FaNodeJs,
     GrHeroku,
     IoLogoCss3,
     IoLogoReact,
-    AiOutlineCloud,
     SiNetlify,
     SiPostgresql,
     SiRedux
-} from "react-icons/all";
+} from 'react-icons/all';
+import './ProjectModal.css';
 
 export default function ConvertThatClimbModal(props) {
 
-    return(
+    return (
 
         <Modal
             aria-labelledby="contained-modal-title-vcenter"
@@ -32,7 +32,7 @@ export default function ConvertThatClimbModal(props) {
                             </a>
                         </Col>
                         {/*<Col xs={12} lg={5} className="d-flex align-items-end" >*/}
-                        <Col xs={12} lg={5} className="my-auto" >
+                        <Col xs={12} lg={5} className="my-auto">
                             <h6>
                                 <a target="_blank" rel="noreferrer" href="https://www.convertthatclimb.co.uk">
                                     www.convertthatclimb.co.uk
@@ -51,7 +51,8 @@ export default function ConvertThatClimbModal(props) {
                     </Row>
                     <Row>
                         <Col className="text">
-                            This site allows the user to convert between multiple different rock climbing grades with ease.
+                            This site allows the user to convert between multiple different rock climbing grades with
+                            ease.
                             Equivalent grades can be compared for both route climbing and bouldering alongside useful
                             information about the history of each grading system.
                         </Col>
@@ -63,11 +64,16 @@ export default function ConvertThatClimbModal(props) {
                     </Row>
                     <Row>
                         <Col className="text">
-                            Simply put, the front-end app, written in React with Bootstrap and CSS styling, communicates with a
-                            RESTful API, hosted on Heroku, and retrieves data from the PostgreSQl database. The front-end app
-                            utilises Redux for state management in order to centralise the state and ensure that the app is
-                            well-written, easily maintainable and scalable. The back-end is written in Javascript using Node.js and
-                            is a lightweight API able to consume errors and handle multiple asynchronous requests from the app.
+                            Simply put, the front-end app, written in React with Bootstrap and CSS styling, communicates
+                            with a
+                            RESTful API, hosted on Heroku, and retrieves data from the PostgreSQl database. The
+                            front-end app
+                            utilises Redux for state management in order to centralise the state and ensure that the app
+                            is
+                            well-written, easily maintainable and scalable. The back-end is written in Javascript using
+                            Node.js and
+                            is a lightweight API able to consume errors and handle multiple asynchronous requests from
+                            the app.
                         </Col>
                     </Row>
                     <Row>
@@ -88,7 +94,8 @@ export default function ConvertThatClimbModal(props) {
                             </a>
                         </Col>
                         <Col>
-                            <a href="https://github.com/KitThornton/ConvertThatClimbAPI" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/KitThornton/ConvertThatClimbAPI" target="_blank"
+                               rel="noreferrer">
                                 Node.js API: < BsGithub/>
                             </a>
                         </Col>
@@ -96,28 +103,28 @@ export default function ConvertThatClimbModal(props) {
                     <Row>
                         <Col>
                             Front-End:
-                            <br />
-                            <IoLogoReact /> React
                             <br/>
-                            <SiRedux /> Redux
+                            <IoLogoReact/> React
                             <br/>
-                            <BsBootstrap /> Bootstrap
+                            <SiRedux/> Redux
                             <br/>
-                            <IoLogoCss3 /> CSS
+                            <BsBootstrap/> Bootstrap
+                            <br/>
+                            <IoLogoCss3/> CSS
                         </Col>
                         <Col>
-                            Back-End:<br />
-                            <FaNodeJs /> Node.js
+                            Back-End:<br/>
+                            <FaNodeJs/> Node.js
                             <br/>
-                            <AiOutlineCloud /> REST API
+                            <AiOutlineCloud/> REST API
                         </Col>
                         <Col>
-                            Database:<br />
-                            <SiPostgresql /> PostgreSQL
+                            Database:<br/>
+                            <SiPostgresql/> PostgreSQL
                         </Col>
                         <Col>
                             Hosting: <br/>
-                            <GrHeroku /> Heroku
+                            <GrHeroku/> Heroku
                             <br/>
                             <SiNetlify/> Netlify
                         </Col>
@@ -133,16 +140,19 @@ export default function ConvertThatClimbModal(props) {
                             it greatly. I've summarised the key outcomes below:
                             <ul>
                                 <li>
-                                    Redux is a necessity  when building React applications as it allows the components
-                                    to be written more succinctly and requests can be reused easily. Furthermore, centralising the
+                                    Redux is a necessity when building React applications as it allows the components
+                                    to be written more succinctly and requests can be reused easily. Furthermore,
+                                    centralising the
                                     state will be essential when creating a multi-page application.
                                 </li>
                                 <li>
-                                    Through using two separate GitHub repositories, one for the front-end app and another
+                                    Through using two separate GitHub repositories, one for the front-end app and
+                                    another
                                     for the API allows Netlify and Heroku to be used more easily.
                                 </li>
                                 <li>
-                                    Using a single CSS framework reduces confusion between similar functionalites between
+                                    Using a single CSS framework reduces confusion between similar functionalites
+                                    between
                                     different frameworks. Using solely React-Bootstrap as oppose to part Reactstrap or
                                     MaterialUI is more beneficial. Further styling can be applied simply with CSS.
                                 </li>

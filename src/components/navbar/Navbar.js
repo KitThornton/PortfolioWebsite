@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Navbar, Nav, Col} from 'react-bootstrap'
+import {Col, Container, Nav, Navbar} from 'react-bootstrap'
 import {withRouter} from 'react-router';
 import {NavLink} from 'react-router-dom';
 import Avatar from "../avatar/Avatar";
@@ -7,12 +7,12 @@ import './Navbar.css';
 import Contact from "../contact/Contact";
 
 export const VerticalNavbar = (props) => {
-    const { location } = props;
+    const {location} = props;
 
     return (
         <>
             <div className="d-none d-md-block py-sm-0 pt-md-3">
-                <Avatar />
+                <Avatar/>
             </div>
             <Navbar
                 collapseOnSelect
@@ -20,15 +20,15 @@ export const VerticalNavbar = (props) => {
             >
                 <Container>
                     <div className="d-md-none">
-                        <Contact />
+                        <Contact/>
                     </div>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav" className="py-sm-0 pt-md-5">
                         <Col>
                             <Nav
                                 activeKey={location.pathname}
-                                 className="flex-column d-md-block text-center"
-                                 fill
+                                className="flex-column d-md-block text-center"
+                                fill
                             >
                                 <Nav.Item className="my-md-1">
                                     <NavLink to="/home" activeClassName="active" className="link d-md-none">
@@ -73,9 +73,9 @@ export const VerticalNavbar = (props) => {
             </Navbar>
             <div className="d-none d-md-inline-block footer-wrapper">
                 <div className="footer">
-                    GET IN TOUCH<br />
+                    GET IN TOUCH<br/>
                 </div>
-                <Contact />
+                <Contact/>
             </div>
         </>
     )
