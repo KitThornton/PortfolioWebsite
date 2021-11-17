@@ -41,7 +41,9 @@ class ConvertThatClimb extends React.Component {
         return (
             <Row>
                 <Col xs="12" md="12" lg="8">
-                    <h2>Convert That Climb</h2>
+                    <span onClick={this.modalShow}>
+                        <h2>Convert That Climb</h2>
+                    </span>
                     <Row className="py-1">
                         <Col className="project-caption">
                             OVERVIEW

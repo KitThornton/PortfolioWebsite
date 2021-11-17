@@ -4,7 +4,6 @@ import {Button, Col, Container, OverlayTrigger, Row, Tooltip} from "react-bootst
 import {RiFileDownloadLine} from 'react-icons/all';
 import {Link} from "react-router-dom";
 import file from '../Kit_Thornton_CV.pdf'
-// import Thornton_Kit_close from "../Thornton_Kit_close.jpg"
 import './CV.css';
 import throttle from "lodash.throttle";
 import {IconContext} from "react-icons";

@@ -2,6 +2,7 @@ import React from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
 import ConvertThatClimb from "../components/Project/ConvertThatClimb";
 import PortfolioSite from "../components/Project/PortfolioSite";
+import ExhallCCStats from "../components/Project/ExhallCCStats";
 import './Projects.css'
 
 export const Projects = () => {
@@ -14,6 +15,11 @@ export const Projects = () => {
                 {/*    </div>*/}
                 {/*</Col>*/}
                 <Col>
+                    <Row className="py-3">
+                        <Col>
+                            <ExhallCCStats />
+                        </Col>
+                    </Row>
                     <Row className="py-3">
                         <Col className="project">
                             <ConvertThatClimb/>
